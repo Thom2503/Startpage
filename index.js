@@ -18,6 +18,7 @@ function initSearchBar() {
   })
 }
 
+//for some reason this code doesn't work and I don't know how :(
 function greeting() {
   t = new Date();
   hour = t.getHours();
