@@ -16,5 +16,5 @@ These can also be changed in via the img tags in the HTML file.
 
 There is a search engine which I use a lot. It looks the things up on DuckDuckGo.
 For google the searchUrl variable on line 15 in Index.js needs to be changed to:
-1*Google: "https://www.google.com/search?q="
-2*DuckDuckGo: "https://duckduckgo.com/?q="
+* Google: "https://www.google.com/search?q="
+* DuckDuckGo: "https://duckduckgo.com/?q="
