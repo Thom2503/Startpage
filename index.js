@@ -1,8 +1,9 @@
-messageDivId = "hello";
-messageId = "hellotext";
+var messageDivId = "hello";
+var messageId = "hellotext";
 
 window.onload = function() {
-  this.initSearchBar()
+  this.initSearchBar();
+  this.displayMSG();
 }
 
 function initSearchBar() {
@@ -19,6 +20,7 @@ function initSearchBar() {
 }
 
 //for some reason this code doesn't work and I don't know how :(
+//it probably works now, but can't test it properly
 function greeting() {
   t = new Date();
   hour = t.getHours();
@@ -49,7 +51,5 @@ function inRange(number, min, max) {
 
 function displayMSG() {
   msg = greeting();
-  msg = `${msg}`;
-  document.getElementById(messageId).texContent = msg;
+  document.getElementById(messageId).innerHTML = msg;
 }
-displayMSG();

@@ -2,7 +2,7 @@
 My custom startpage
 
 -----------------------------------------------------------------------------------------------------------------------------------
-This is my personal homepage. (still have some bugs to fix)
+This is my personal homepage.
 
 ![picture](https://github.com/thom2503/Starpage/blob/master/Capture.PNG?raw=true)
 
